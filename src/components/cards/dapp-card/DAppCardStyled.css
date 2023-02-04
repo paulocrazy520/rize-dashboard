@@ -1,0 +1,68 @@
+.dapp_card {
+  width: 100%;
+  max-width: 528px;
+  min-height: 164px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1px;
+  background: linear-gradient(120deg, #01b7c5, #782c96);
+  box-shadow: 0px 11.0526px 22.1053px rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+}
+
+.dapp_card_pattern__img {
+  width: 158px;
+  border-radius: 20px 0 0 20px;
+}
+
+.dapp_card__main_container {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 0 20px 20px 0;
+  align-items: center;
+  background-color: #000000;
+  position: relative;
+}
+
+.dapp_card__icon_card {
+  left: -99px;
+  position: absolute;
+  top: 59px;
+  height: 40px;
+  width: 40px;
+}
+
+.dapp_card__texts_container {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 20px 20px 20px 0;
+}
+
+.dapp_card__label {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+  color: rgba(255, 255, 255);
+}
+
+.dapp_card__description {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 55%);
+}
+
+.dapp_card__info {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 30%);
+}

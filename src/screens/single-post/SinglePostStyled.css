@@ -1,0 +1,122 @@
+h1 {
+  font-size: 28px;
+  color: #ffffff;
+  padding: 1rem 0rem;
+}
+
+h2 {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 1rem 0rem;
+}
+
+h3 {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 1rem 0rem;
+}
+
+meta {
+  color: rgb(22, 187, 255);
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+img {
+  width: 100%;
+}
+
+.all_singlepost {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.btnback_article {
+  width: 100%;
+  z-index: 0;
+}
+
+.titlesection_singlepost {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title_singlepost {
+  background-color: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 4rem;
+}
+
+.img_singlepost {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: cover;
+  border-radius: 10px;
+  padding-bottom: 2rem;
+}
+
+.block__content {
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.text_content {
+  font-size: 16px;
+  line-height: 28px;
+  width: 100%;
+}
+
+.sharebutton_section {
+  width: 100%;
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid #333333;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.twitter-icon_singleblog {
+  font-size: 32px;
+  width: 25px;
+}
+
+/* FOR SMALL DEVICES : PHONES */
+
+@media screen and (max-width: 600px) {
+  .all_singlepost {
+    z-index: 0;
+    width: 100%;
+  }
+  .titlesection_singlepost {
+    width: 120%;
+  }
+  .title_singlepost {
+    width: 110%;
+  }
+  .btnback_article {
+    z-index: 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+  
+    align-content: center;
+    justify-content: flex-end;
+  }
+}

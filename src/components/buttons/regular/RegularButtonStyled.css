@@ -1,0 +1,21 @@
+.card_button {
+  height: 44px;
+  width: 78px;
+  display: flex;
+  border: none;
+  background-color: #2b2b33;
+  border-radius: 10px;
+}
+
+.container_button {
+  height: 42px;
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_button_link {
+  color: #16bbff;
+  font-size: 1.6rem;
+}

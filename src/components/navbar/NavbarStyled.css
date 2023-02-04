@@ -1,0 +1,166 @@
+.nav {
+  width: 100vw;
+  min-height: var(--header-height);
+  background-size: cover;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.nav_enterthedap {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+  text-transform: uppercase;
+  align-items: center;
+  align-content: center;
+}
+
+.nav__link :hover {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+  text-transform: uppercase;
+  background: linear-gradient(to right, #2af598, #009efd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.nav__brand {
+  text-transform: uppercase;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(204, 204, 204);
+  transition: 0.3s ease-in;
+  /* position: relative; */
+}
+
+.nav__toggler_opened {
+  position: absolute;
+  right: 60px;
+  top: 30px;
+}
+
+.enter_text_gradient {
+  background: linear-gradient(to right, #2af598, #009efd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 700;
+  min-width: 130px;
+}
+
+#last_button_menu {
+  margin-right: 30%;
+}
+
+.nav_elem {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  margin-left: 14px;
+  margin-right: 14px;
+  transition: opacity 0.2s;
+  min-width: auto;
+}
+
+.nav_elem:hover {
+  opacity: 0.7;
+}
+
+.text_gradient {
+  font-weight: bold;
+  background: linear-gradient(to right, #2af598, #009efd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+  }
+  .nav__menu {
+    gap: 5rem;
+    justify-content: center;
+
+    height: 100%;
+    width: 100vw;
+    padding-bottom: 2rem;
+    flex-direction: column;
+  }
+
+  .nav__menu_slider {
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    height: 100%;
+    width: 100vw;
+    z-index: 999;
+    position: fixed;
+    right: 0;
+    background: url("../../../public/background.svg");
+    top: 0;
+  }
+}
+/* Active Class */
+.nav__active {
+  transform: translateX(0%);
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
+
+.enter_text_gradient {
+  background: linear-gradient(to right, #2af598, #009efd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 700;
+  min-width: 130px;
+}
+
+.nav_enterthedap {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+  text-transform: uppercase;
+  align-items: center;
+  align-content: center;
+}

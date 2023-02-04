@@ -1,0 +1,30 @@
+.title_background_block_roadmap {
+  background: url("../../../public/roadmap-background.png");
+  background-color: black;
+  background: cover;
+  background-repeat: no-repeat;
+  background-position-y: 26%;
+  background-position-x: 55%;
+  height: 50vh;
+  width: 100%;
+}
+
+.link_highlight {
+  color: #c7ffae;
+}
+
+.column_no_heading_space {
+  height: 80px;
+  width: 1px;
+}
+
+.right_column_buttons {
+  display: flex;
+  margin-top: 1.6rem;
+}
+
+@media screen and (max-width: 790px) {
+  .column_no_heading_space {
+    height: 5px;
+  }
+}

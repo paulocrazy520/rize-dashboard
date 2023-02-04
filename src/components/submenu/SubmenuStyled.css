@@ -1,0 +1,67 @@
+.dropdownmenu ul,
+.dropdownmenu li {
+  margin: 0;
+  padding: 0;
+}
+.dropdownmenu ul {
+  background: gray;
+  list-style: none;
+}
+.dropdownmenu li {
+  float: left;
+  position: relative;
+  width: auto;
+}
+.dropdownmenu a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  display: block;
+  padding: 6px;
+
+  min-width: auto;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.submenu {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 35px;
+  visibility: hidden;
+  z-index: 1;
+  padding: 0rem 1rem 1rem;
+  border-radius: 6px;
+  background: #000;
+  min-width: 120px;
+}
+
+.nav_item_gradient {
+  background: linear-gradient(90deg, #5433ff 0%, #20bdff 50%, #a5fecb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+li:hover ul.submenu {
+  opacity: 1;
+  top: 40px; /* adjust this as per top nav padding top & bottom comes */
+  visibility: visible;
+}
+
+.submenu li {
+  float: none;
+  width: 100%;
+}
+
+.submenu a {
+  background-color: #000000;
+}

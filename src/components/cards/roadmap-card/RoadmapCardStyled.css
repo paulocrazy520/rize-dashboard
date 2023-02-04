@@ -1,0 +1,15 @@
+.roadmap_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 148px;
+  height: 148px;
+}
+
+.roadmap_image {
+  max-width: 88px;
+  max-height: 88px;
+  width: 18.6vw;
+  height: auto;
+}
